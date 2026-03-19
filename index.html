@@ -26,7 +26,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 
   <link rel="stylesheet" href="css/style.css"/>
 
@@ -88,184 +88,185 @@
   <!-- Header -->
   <header class="site-header" role="banner">
     <nav class="nav-container" role="navigation" aria-label="Main navigation">
-      <a href="index.html" class="nav-logo" aria-label="Web3 Hub homepage">
-        <img src="images/logo.jpg" alt="Web3 Hub logo" width="36" height="36"/>
+      <a href="/" class="nav-logo" aria-label="Web3 Hub homepage">
+        <img src="images/logo.jpg" alt="Web3 Hub" width="32" height="32"/>
         Web3 Hub
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation menu" onclick="this.classList.toggle('open');document.getElementById('nav-links').classList.toggle('open');">
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="about.html">About</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html" class="btn btn-outline" style="padding:0.5rem 1.25rem;">Contact</a></li>
-      </ul>
+      <div class="nav-links" id="nav-links">
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="btn btn-primary">Contact</a>
+      </div>
     </nav>
   </header>
 
   <main>
-    <!-- Hero Section -->
+
+    <!-- Hero -->
     <section class="hero" aria-label="Hero">
       <div class="hero-content">
-        <div class="hero-badge">Web3 Innovation Hub</div>
-        <h1><span class="gradient-text">Web3 Hub</span></h1>
+        <h1>Web3 Hub</h1>
         <p class="hero-location">Kas, Antalya, Turkey</p>
-        <p>Connecting the global Web3 community through innovation, education, and collaboration. Your gateway to blockchain technology and the decentralized future.</p>
+        <p>Innovation hub for blockchain and Web3 communities. Connecting builders, thinkers, and creators on the Mediterranean coast.</p>
         <div class="hero-buttons">
-          <a href="about.html" class="btn btn-primary">Discover More</a>
-          <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+          <a href="about.html" class="btn btn-hero">Discover More</a>
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="bg-dark" aria-label="Our services">
+    <!-- Feature Grid -->
+    <section aria-label="What We Offer">
       <div class="container">
         <div class="section-header">
-          <h2>What We Do at <span class="accent-text">Web3 Hub</span></h2>
-          <p>Empowering the Web3 ecosystem in Kas, Turkey and beyond through three core pillars.</p>
-          <div class="section-divider"></div>
+          <h2>What We Offer</h2>
         </div>
-        <div class="cards-grid">
-          <article class="card">
-            <div class="card-icon">&#x1F91D;</div>
-            <h3>Community Building</h3>
-            <p>We bring together developers, entrepreneurs, investors, and blockchain enthusiasts from around the world. Our Web3 Hub in Kas serves as a meeting point for the global decentralized technology community, fostering meaningful connections and collaborations.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon">&#x1F4DA;</div>
-            <h3>Web3 Education</h3>
-            <p>From beginner workshops to advanced blockchain development bootcamps, Web3 Hub offers comprehensive educational programs. Learn about smart contracts, DeFi, NFTs, and decentralized applications from industry experts in our Kas, Antalya headquarters.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon">&#x1F680;</div>
-            <h3>Innovation Events</h3>
-            <p>Web3 Hub hosts hackathons, conferences, and networking events that attract global participants. Our events in Kas, Turkey have featured speakers from leading blockchain projects and have helped launch innovative Web3 startups.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Preview -->
-    <section aria-label="About Web3 Hub">
-      <div class="container">
-        <div class="about-preview">
-          <div>
-            <img src="images/block2.jpg" alt="Web3 Hub community workspace in Kas, Antalya, Turkey" loading="lazy" width="600" height="400"/>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <img src="images/gallery/gallery-01.jpg" alt="Community events at Web3 Hub" loading="lazy"/>
+            <p>Community Events</p>
           </div>
-          <div>
-            <h2>About <span class="accent-text">Web3 Hub</span></h2>
-            <p>Founded in 2021 in the beautiful coastal town of Kas, Antalya, Web3 Hub started as a grassroots community for blockchain enthusiasts on Turkey's Mediterranean coast. What began as local meetups quickly grew into Web3 META Hub -- a global network spanning the Middle East, Turkey, and Africa.</p>
-            <p>Today, our Web3 Hub connects investors, developers, and innovators from Riyadh to Dubai, from Istanbul to the Far East. We are building the future of decentralized communities, right here in Kas, Turkey.</p>
-            <a href="about.html" class="btn btn-primary" style="margin-top:1rem;">Learn Our Story</a>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-03.jpg" alt="Blockchain education programs" loading="lazy"/>
+            <p>Blockchain Education</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-05.jpg" alt="Hackathons at Web3 Hub" loading="lazy"/>
+            <p>Hackathons</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-07.jpg" alt="Networking opportunities" loading="lazy"/>
+            <p>Networking</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-10.jpg" alt="Co-working space in Kas" loading="lazy"/>
+            <p>Co-working Space</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-15.jpg" alt="Speaker panels and talks" loading="lazy"/>
+            <p>Speaker Panels</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-18.jpg" alt="Startup incubation program" loading="lazy"/>
+            <p>Startup Incubation</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-20.jpg" alt="Global partnerships" loading="lazy"/>
+            <p>Global Partnerships</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-22.jpg" alt="Web3 workshops" loading="lazy"/>
+            <p>Web3 Workshops</p>
+          </div>
+          <div class="feature-card">
+            <img src="images/gallery/gallery-25.jpg" alt="Mediterranean lifestyle in Kas" loading="lazy"/>
+            <p>Mediterranean Lifestyle</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Web3 Hub on the Global Stage -->
-    <section aria-label="Web3 Hub on the Global Stage">
+    <!-- About -->
+    <section class="section-alt" aria-label="About Web3 Hub">
       <div class="container">
-        <div class="section-header">
-          <h2><span class="accent-text">Web3 Hub</span> on the Global Stage</h2>
-          <p>From Kaş to the world. Highlights from our events, hackathons, and community gatherings.</p>
-          <div class="section-divider"></div>
-        </div>
-        <div class="gallery-grid">
-          <img src="images/gallery/gallery-01.jpg" alt="Web3 Hub community event in Kaş, Turkey" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-03.jpg" alt="Web3 META Hub blockchain meetup" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-05.jpg" alt="Blockchain hackathon at Web3 META Hub" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-10.jpg" alt="Web3 Hub speaker panel in Antalya" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-15.jpg" alt="Web3 networking event in Kaş, Turkey" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-18.jpg" alt="Web3 Hub community collaboration" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-20.jpg" alt="Web3 META Hub workshop session" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-          <img src="images/gallery/gallery-25.jpg" alt="Web3 Hub community gathering in Mediterranean Turkey" loading="lazy" style="width:100%;border-radius:8px;aspect-ratio:4/3;object-fit:cover;"/>
-        </div>
-        <div style="text-align:center;margin-top:2rem;">
-          <a href="gallery.html" class="btn btn-outline">View Full Gallery</a>
-          <a href="events.html" class="btn btn-primary">See All Events</a>
+        <div class="content text-center">
+          <h2>About Web3 Hub</h2>
+          <p>Founded in 2021 in Kas, on Turkey's Mediterranean coast. What started as local meetups grew into Web3 META Hub, connecting builders from Riyadh to Dubai, Istanbul to the Far East. Today, our hub bridges investors, developers, and innovators across the Middle East, Turkey, and Africa -- building the future of decentralized communities.</p>
+          <a href="about.html" class="link-arrow">Learn our story &rarr;</a>
         </div>
       </div>
     </section>
 
-    <!-- YouTube Videos -->
-    <section class="bg-dark" aria-label="Web3 Hub Videos">
+    <!-- Gallery Scroll -->
+    <section aria-label="Gallery">
       <div class="container">
         <div class="section-header">
-          <h2>Watch <span class="accent-text">Web3 Hub</span> in Action</h2>
-          <p>Events, talks, and community moments from our YouTube channel.</p>
-          <div class="section-divider"></div>
+          <h2>Web3 Hub on the Global Stage</h2>
         </div>
-        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:1.5rem;">
-          <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;">
-            <iframe src="https://www.youtube.com/embed/gQFwBi9BbBs" title="Web3 Hub Event Highlight" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-          <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;">
-            <iframe src="https://www.youtube.com/embed/QvxfnGQeHpU" title="Web3 META Hub Talk" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-          <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;">
-            <iframe src="https://www.youtube.com/embed/3dG1QqocJ_0" title="Blockchain Innovation at Web3 Hub Kaş" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-          <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;">
-            <iframe src="https://www.youtube.com/embed/jJl3T21yEiQ" title="Web3 Hub Community Event" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-          <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;">
-            <iframe src="https://www.youtube.com/embed/xRN4Xtuj93k" title="Web3 Hub Speaker Session" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-          <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;">
-            <iframe src="https://www.youtube.com/embed/PYNerfX0s_o" title="Web3 META Hub Panel" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-          </div>
-        </div>
-        <div style="text-align:center;margin-top:2rem;">
-          <a href="https://www.youtube.com/@Web3MetaHub" class="btn btn-outline" target="_blank" rel="noopener">View All Videos on YouTube</a>
+        <div class="gallery-scroll">
+          <img src="images/gallery/gallery-01.jpg" alt="Web3 Hub community event" loading="lazy"/>
+          <img src="images/gallery/gallery-02.jpg" alt="Blockchain meetup" loading="lazy"/>
+          <img src="images/gallery/gallery-03.jpg" alt="Web3 education session" loading="lazy"/>
+          <img src="images/gallery/gallery-04.jpg" alt="Web3 Hub workshop" loading="lazy"/>
+          <img src="images/gallery/gallery-05.jpg" alt="Hackathon at Web3 Hub" loading="lazy"/>
+          <img src="images/gallery/gallery-06.jpg" alt="Community gathering" loading="lazy"/>
+          <img src="images/gallery/gallery-07.jpg" alt="Networking event" loading="lazy"/>
+          <img src="images/gallery/gallery-08.jpg" alt="Speaker session" loading="lazy"/>
+          <img src="images/gallery/gallery-09.jpg" alt="Web3 conference" loading="lazy"/>
+          <img src="images/gallery/gallery-10.jpg" alt="Co-working at Web3 Hub" loading="lazy"/>
+          <img src="images/gallery/gallery-11.jpg" alt="Web3 Hub Kas" loading="lazy"/>
+          <img src="images/gallery/gallery-12.jpg" alt="Mediterranean tech community" loading="lazy"/>
         </div>
       </div>
     </section>
 
-    <!-- Recent Blog Posts -->
-    <section class="bg-dark" aria-label="Recent blog posts">
+    <!-- Video Section -->
+    <section class="section-alt" aria-label="Videos">
       <div class="container">
         <div class="section-header">
-          <h2>Latest from the <span class="accent-text">Web3 Hub</span> Blog</h2>
-          <p>Insights on blockchain, Web3, and the tech scene in Kas, Antalya, Turkey.</p>
-          <div class="section-divider"></div>
+          <h2>Watch</h2>
         </div>
-        <div class="cards-grid">
-          <article class="blog-card">
-            <div class="blog-card-img">
-              <img src="images/block1.jpg" alt="Tech community meetup at Web3 Hub Kas" loading="lazy" width="400" height="200"/>
-            </div>
-            <div class="blog-card-body">
-              <p class="blog-card-date">November 11, 2025</p>
-              <h3><a href="blog/connecting-tech-community-kas.html">Connecting with the Tech Community in Kas: Events and Opportunities</a></h3>
-              <p>Discover how Kas on the Turkish Riviera is becoming a vibrant hub for the tech community, attracting digital nomads and tech enthusiasts.</p>
-            </div>
-          </article>
-          <article class="blog-card">
-            <div class="blog-card-img">
-              <img src="images/block3.jpg" alt="Antalya emerging tech hub for Web3 innovation" loading="lazy" width="400" height="200"/>
-            </div>
-            <div class="blog-card-body">
-              <p class="blog-card-date">November 08, 2025</p>
-              <h3><a href="blog/antalya-emerging-tech-hub.html">Why Antalya is the Emerging Hub for Tech Innovation</a></h3>
-              <p>Explore why Antalya, at the crossroads of Europe and Asia, is rapidly becoming a center for tech startups and Web3 innovation.</p>
-            </div>
-          </article>
-          <article class="blog-card">
-            <div class="blog-card-img">
-              <img src="images/block4.jpg" alt="Blockchain innovation hub in Kas, Turkey" loading="lazy" width="400" height="200"/>
-            </div>
-            <div class="blog-card-body">
-              <p class="blog-card-date">November 05, 2025</p>
-              <h3><a href="blog/kas-blockchain-innovation.html">How Kas Became a Hub for Blockchain Innovation in Turkey</a></h3>
-              <p>Learn how this Mediterranean coastal town emerged as an unexpected blockchain hub, attracting talent from across Turkey and beyond.</p>
-            </div>
-          </article>
+        <div class="video-grid">
+          <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/gQFwBi9BbBs" title="Web3 Hub Event Highlight" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/QvxfnGQeHpU" title="Web3 META Hub Talk" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/3dG1QqocJ_0" title="Blockchain Innovation at Web3 Hub" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/jJl3T21yEiQ" title="Web3 Hub Community Event" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/xRN4Xtuj93k" title="Web3 Hub Speaker Session" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/PYNerfX0s_o" title="Web3 META Hub Panel" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
         </div>
-        <div style="text-align:center;margin-top:2.5rem;">
-          <a href="blog.html" class="btn btn-outline">View All Articles</a>
+        <div class="text-center mt-2">
+          <a href="https://www.youtube.com/@Web3MetaHub" class="link-arrow" target="_blank" rel="noopener">More on YouTube &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section aria-label="Instagram">
+      <div class="container">
+        <div class="section-header">
+          <h2>Follow @web3metahub</h2>
+        </div>
+        <div class="ig-grid">
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLu-4cMoabo/" data-instgrm-version="14" style="max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/p/DLu-4cMoabo/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DQCpgk2jUgj/" data-instgrm-version="14" style="max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/reel/DQCpgk2jUgj/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DGh8AZeoR5O/" data-instgrm-version="14" style="max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/reel/DGh8AZeoR5O/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_KwbeiIpHE/" data-instgrm-version="14" style="max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/reel/C_KwbeiIpHE/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7qZ8MNIl0E/" data-instgrm-version="14" style="max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/p/C7qZ8MNIl0E/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9_gEDsIFCz/" data-instgrm-version="14" style="max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/p/C9_gEDsIFCz/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+        </div>
+        <div class="text-center mt-2">
+          <a href="https://www.instagram.com/web3metahub/" class="link-arrow" target="_blank" rel="noopener">Follow on Instagram &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Twitter/X Section -->
+    <section class="section-alt" aria-label="Twitter">
+      <div class="container">
+        <div class="section-header">
+          <h2>Latest from X</h2>
+        </div>
+        <div class="twitter-embed">
+          <blockquote class="twitter-tweet"><a href="https://x.com/zuzalukas/status/1981125817779564551">Loading...</a></blockquote>
+        </div>
+        <div class="text-center mt-2">
+          <a href="https://x.com/web3hubkas" class="link-arrow" target="_blank" rel="noopener">Follow @web3hubkas &rarr;</a>
         </div>
       </div>
     </section>
@@ -273,90 +274,101 @@
     <!-- Testimonial -->
     <section aria-label="Testimonial">
       <div class="container">
+        <blockquote class="quote">Web3 Hub is an amazing place in Kas, Antalya. The staff is super friendly and the facilities are top-notch. I had a great experience and would definitely recommend this place to anyone looking for a great meeting spot in the area.</blockquote>
+        <p class="quote-author">-- Michael S.</p>
+      </div>
+    </section>
+
+    <!-- Blog Preview -->
+    <section class="section-alt" aria-label="Blog">
+      <div class="container">
         <div class="section-header">
-          <h2>What People Say About <span class="accent-text">Web3 Hub</span></h2>
-          <div class="section-divider"></div>
+          <h2>From the Blog</h2>
         </div>
-        <div class="testimonial">
-          <blockquote>Web3 Hub is an amazing place in Kas, Antalya. The staff is super friendly and the facilities are top-notch. I had a great experience and would definitely recommend this place to anyone looking for a great meeting spot in the area.</blockquote>
-          <p class="testimonial-author">-- Michael S.</p>
+        <div class="blog-list">
+          <div class="blog-list-item">
+            <p class="blog-date">November 11, 2025</p>
+            <h3><a href="blog/connecting-tech-community-kas.html">Connecting with the Tech Community in Kas: Events and Opportunities</a></h3>
+            <p>How Kas on the Turkish Riviera is becoming a vibrant hub for the tech community, attracting digital nomads and enthusiasts.</p>
+          </div>
+          <div class="blog-list-item">
+            <p class="blog-date">November 08, 2025</p>
+            <h3><a href="blog/antalya-emerging-tech-hub.html">Why Antalya is the Emerging Hub for Tech Innovation</a></h3>
+            <p>At the crossroads of Europe and Asia, Antalya is rapidly becoming a center for tech startups and Web3 innovation.</p>
+          </div>
+          <div class="blog-list-item">
+            <p class="blog-date">November 05, 2025</p>
+            <h3><a href="blog/kas-blockchain-innovation.html">How Kas Became a Hub for Blockchain Innovation in Turkey</a></h3>
+            <p>This Mediterranean coastal town emerged as an unexpected blockchain hub, attracting talent from across Turkey and beyond.</p>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <a href="blog.html" class="link-arrow">All articles &rarr;</a>
         </div>
       </div>
     </section>
 
-    <!-- Instagram Feed -->
-    <section aria-label="Instagram feed">
+    <!-- FAQ -->
+    <section aria-label="FAQ">
       <div class="container">
         <div class="section-header">
-          <h2>Follow <span class="accent-text">@web3metahub</span> on Instagram</h2>
-          <div class="section-divider"></div>
+          <h2>Frequently Asked Questions</h2>
         </div>
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;justify-items:center;">
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLu-4cMoabo/" data-instgrm-version="14" style="background:#202025;border:1px solid #2a2a30;border-radius:10px;max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/p/DLu-4cMoabo/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DQCpgk2jUgj/" data-instgrm-version="14" style="background:#202025;border:1px solid #2a2a30;border-radius:10px;max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/reel/DQCpgk2jUgj/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DGh8AZeoR5O/" data-instgrm-version="14" style="background:#202025;border:1px solid #2a2a30;border-radius:10px;max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/reel/DGh8AZeoR5O/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_KwbeiIpHE/" data-instgrm-version="14" style="background:#202025;border:1px solid #2a2a30;border-radius:10px;max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/reel/C_KwbeiIpHE/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7qZ8MNIl0E/" data-instgrm-version="14" style="background:#202025;border:1px solid #2a2a30;border-radius:10px;max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/p/C7qZ8MNIl0E/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-          <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9_gEDsIFCz/" data-instgrm-version="14" style="background:#202025;border:1px solid #2a2a30;border-radius:10px;max-width:400px;min-width:260px;width:100%;padding:0;"><a href="https://www.instagram.com/p/C9_gEDsIFCz/" target="_blank" rel="noopener">View on Instagram</a></blockquote>
-        </div>
-        <script async src="//www.instagram.com/embed.js"></script>
-        <div style="text-align:center;margin-top:1.5rem;">
-          <a href="https://www.instagram.com/web3metahub/" class="btn btn-outline" target="_blank" rel="noopener">Follow @web3metahub on Instagram</a>
+        <div class="content faq">
+          <details>
+            <summary>What is Web3 Hub?</summary>
+            <p>Web3 Hub is an innovation and collaboration hub based in Kas, Antalya, Turkey. We bring together blockchain developers, entrepreneurs, investors, and enthusiasts to build the decentralized future through education, events, and community.</p>
+          </details>
+          <details>
+            <summary>Where is Web3 Hub located?</summary>
+            <p>We are located in Kas, Antalya, on Turkey's stunning Mediterranean coast. Kas is a historic town known for its Lycian heritage, crystal-clear waters, and growing international community.</p>
+          </details>
+          <details>
+            <summary>How can I join?</summary>
+            <p>Reach out to us via Telegram or email. We welcome builders, creators, and anyone passionate about Web3 and decentralized technology. Join our Telegram group to stay updated on events and opportunities.</p>
+          </details>
+          <details>
+            <summary>Do you host events?</summary>
+            <p>Yes. We organize hackathons, conferences, speaker panels, workshops, and community meetups throughout the year. Our events attract participants from around the world.</p>
+          </details>
+          <details>
+            <summary>What is Web3 META Hub?</summary>
+            <p>Web3 META Hub is the expanded network covering the Middle East, Turkey, and Africa. It represents our vision of connecting Web3 communities across these regions through a shared hub in Kas.</p>
+          </details>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section" aria-label="Call to action">
-      <div class="container">
-        <h2>Ready to Join the <span class="gradient-text">Web3 Hub</span> Community?</h2>
-        <p style="max-width:600px;margin:1rem auto 2rem;">Whether you are a developer, entrepreneur, or blockchain enthusiast, Web3 Hub in Kas, Turkey is your gateway to the decentralized future.</p>
-        <a href="contact.html" class="btn btn-primary">Get Started Today</a>
-        <a href="https://t.me/web3metahub" class="btn btn-outline" target="_blank" rel="noopener">Join our Telegram</a>
+    <!-- CTA -->
+    <section class="section-alt cta-section" aria-label="Join">
+      <h2>Join the Community</h2>
+      <p>Whether you are a developer, entrepreneur, or blockchain enthusiast, Web3 Hub is your gateway to the decentralized future.</p>
+      <div class="cta-buttons">
+        <a href="https://t.me/web3metahub" class="btn btn-primary" target="_blank" rel="noopener">Join Telegram</a>
+        <a href="contact.html" class="btn btn-outline">Send Email</a>
       </div>
     </section>
+
   </main>
 
   <!-- Footer -->
-  <footer class="site-footer" role="contentinfo">
+  <footer class="footer" role="contentinfo">
     <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo.jpg" alt="Web3 Hub logo" width="36" height="36"/>
-            Web3 Hub
-          </a>
-          <p>Web3 Hub - Kas, Antalya, Turkey. Connecting the global Web3 community through innovation, education, and events.</p>
-          <div class="social-links">
-            <a href="https://x.com/web3hubkas" aria-label="Web3 Hub on Twitter" target="_blank" rel="noopener">X</a>
-            <a href="https://t.me/web3metahub" aria-label="Web3 Hub on Telegram" target="_blank" rel="noopener">TG</a>
-            <a href="https://linkedin.com/company/web-3-hub-ka%C5%9F" aria-label="Web3 Hub on LinkedIn" target="_blank" rel="noopener">In</a>
-          </div>
-        </div>
-        <div class="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="about.html">About Web3 Hub</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Resources</h4>
-          <ul>
-            <li><a href="blog/beginners-guide-web3.html">Beginner's Guide to Web3</a></li>
-            <li><a href="blog/blockchain-startups-turkey.html">Blockchain in Turkey</a></li>
-            <li><a href="blog/crypto-hubs-turkey-kas.html">Crypto Hubs in Turkey</a></li>
-          </ul>
-        </div>
+      <div class="footer-social">
+        <a href="https://x.com/web3hubkas" target="_blank" rel="noopener">X</a>
+        <a href="https://t.me/web3metahub" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://www.instagram.com/web3metahub/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@Web3MetaHub" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://linkedin.com/company/web-3-hub-ka%C5%9F" target="_blank" rel="noopener">LinkedIn</a>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Web3 Hub - Kas, Antalya, Turkey. All rights reserved.</p>
-      </div>
+      <p>&copy; 2025 Web3 Hub &middot; Kas, Antalya, Turkey</p>
     </div>
   </footer>
+
+  <!-- Instagram Embed -->
+  <script async src="//www.instagram.com/embed.js"></script>
+  <!-- Twitter Embed -->
+  <script async src="https://platform.twitter.com/widgets.js"></script>
 
 </body>
 </html>
